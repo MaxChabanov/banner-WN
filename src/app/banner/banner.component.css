@@ -1,49 +1,45 @@
 /* Banner */
 .banner {
-  max-height: 550px;
-  display: flex
+  height: 350px;
+  background: aqua;
+  overflow: hidden;
+}
+.banner-wrap {
+  width: calc(100% + 170px);
 }
 .banner_img {
-  background-size: cover;
-  height: 450px;
+  display: inline-block;
+  height: 350px;
   transition: 0.5s;
+  width: 25%;
+  margin-left: -81px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
+
+.banner_img.opened{
+  width: 50%;
+}
+
 /* Images for banner */
 .banner_img0 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  width: 244px;
+  margin-left: 0;
 }
 .banner_img1 {
   clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
-  width: 244px;
-
-  margin-left: -81px;
 }
 .banner_img2 {
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
-  width: 244px;
-
-  margin-left: -81px;
 }
 
 .banner_img0.opened {
-  clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
-  width: 522px;
+  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
 }
 .banner_img1.opened,
 .banner_img2.opened {
   clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
-  width: 500px;
-  margin-left: -81px;
 }
 .banner_closing_img {
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-  width: 244px;
-  margin-left: -81px;
-}
-.banner_closing_img.opened {
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-  width: 522px;
-  margin-left: -81px;
-  background-size: cover;
 }
