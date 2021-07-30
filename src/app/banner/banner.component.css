@@ -33,7 +33,7 @@ div {
 }
 .banner_img1.opened,
 .banner_img2.opened {
-  clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
   width: calc(100% / 2);
   margin-left: -115px;
 }
