@@ -1,6 +1,6 @@
 <!-- Banner -->
 <section class="banner">
-  <div class="banner-wrap">
+  <div class="banner-wrap" [ngClass]="{'banner-4-images': images.length == 4}">
     <div
       *ngFor="let img of images; let i = index"
       [ngStyle]="{'background-image': 'url(' + img + ')'}"
