@@ -3,7 +3,7 @@
   <div
     *ngFor="let img of images; let i = index"
     [ngStyle]="{'background-image': 'url(' + img + ')'}"
-    class="banner_img{{ i }}"
+    class="banner_img{{ i }} banner_img"
     (click)="bannerClick(i, $event)"
     [ngClass]="{ opened: i == activeImage, banner_closing_img: i == images.length - 1 }"
   ></div>

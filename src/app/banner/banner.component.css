@@ -1,150 +1,49 @@
 /* Banner */
 .banner {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  
+  max-height: 550px;
+  display: flex
 }
-div {
+.banner_img {
   background-size: cover;
-  height: 400px;
+  height: 450px;
   transition: 0.5s;
-  margin: 0;
 }
 /* Images for banner */
 .banner_img0 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  width: calc(100% / 4);
+  width: 244px;
 }
 .banner_img1 {
-  clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
-  width: calc(100% / 4);
-  margin-left: -95px;
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+  width: 244px;
+
+  margin-left: -81px;
 }
 .banner_img2 {
-  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
-  width: calc(100% / 4);
-  margin: 0 -43px 0 -81px;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  width: 244px;
+
+  margin-left: -81px;
 }
 
 .banner_img0.opened {
   clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);
-  width: calc(100% / 2);
+  width: 522px;
 }
 .banner_img1.opened,
 .banner_img2.opened {
-  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
-  width: calc(100% / 2);
-  margin-left: -115px;
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+  width: 500px;
+  margin-left: -81px;
 }
 .banner_closing_img {
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-  width: calc(100% / 4);
-  margin-left: -95px;
+  width: 244px;
+  margin-left: -81px;
 }
 .banner_closing_img.opened {
-  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 145%);
-  width: calc(100% / 2);
-  margin-left: -95px;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  width: 522px;
+  margin-left: -81px;
   background-size: cover;
 }
-
-/* @media (max-width: 1200px) {
-  .banner {
-    background-color:cornsilk;
-  }
-  .banner_closing_img, .banner_img0, .banner_img1, .banner_img2 {
-    margin-left: -72px;
-    width: calc(100% / 3.48);
-  }
-  .banner_closing_img.opened, .banner_img0.opened, .banner_img1.opened, .banner_img2.opened {
-    margin-right: -4px;
-    width: calc(100% / 1.48);
-  }
-  
-}
-
-@media (max-width: 991px) {
-  div {
-    height: 350px;
-  }
-  .banner_closing_img, .banner_img0, .banner_img1, .banner_img2 {
-    margin-left: -66px;
-    width: calc(100% / 3.4);
-  }
-  .banner_closing_img.opened, .banner_img0.opened, .banner_img1.opened, .banner_img2.opened {
-    width: calc(100% / 1.1);
-    margin-left: -120px;
-  }
-  .banner_closing_img.opened {
-    clip-path: polygon(17% 0, 100% 0, 100% 100%, 10% 145%);
-  }
-}
-@media (max-width: 767px) {
-  div {
-    height: 280px;
-  }
-  .banner_closing_img, .banner_img0, .banner_img1, .banner_img2 {
-    margin-left: -58px;
-    width: calc(100% / 2.98);
-  }
-  .banner_closing_img.opened, .banner_img0.opened, .banner_img1.opened, .banner_img2.opened {
-    width: calc(100% / 1.1);
-    margin-left: -120px;
-  }
-}
-@media (max-width: 575px) {
-  div {
-    height: 185px;
-  }
-  .banner_closing_img, .banner_img0, .banner_img1, .banner_img2 {
-    margin-left: -30px;
-    width: calc(100% / 2.4);
-  }
-  .banner_img2 {
-    margin-left: -36px;
-  }
-  .banner_closing_img {
-    margin-left: -20px;
-  }
-  .banner_closing_img.opened, .banner_img0.opened, .banner_img1.opened, .banner_img2.opened {
-    width: 100%;
-    margin-left: -35px;
-  }
-  .banner_closing_img.opened {
-    clip-path: polygon(17% 0, 100% 0, 100% 100%, 4% 134%);
-  }
-}
-@media (max-width: 320px) {
-  div {
-    height: 110px;
-  }
-  .banner_closing_img, .banner_img0, .banner_img1, .banner_img2 {
-    width: calc(100% / 2.1);
-  }
-  .banner_closing_img.opened, .banner_img0.opened, .banner_img1.opened, .banner_img2.opened {
-    width: calc(100%*1.5);
-    margin-left: -60px;
-  }
-  .banner_img0.opened {
-    clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
-  }
-  .banner_img2.opened {
-    margin-left: -18px;
-  }
-  .banner_closing_img.opened {
-    margin-right: -80px;
-  }
-  .banner_img0 {
-    margin-left: -1px;
-  }
-  .banner_img1 {
-    margin-left: -19px;
-  }
-  .banner_img2 {
-    margin-left: -60px;
-  }
-  .banner_closing_img {
-    margin: 0 -65px 0 -10px;
-  }
-} */
