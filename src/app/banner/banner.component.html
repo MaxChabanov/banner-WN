@@ -20,7 +20,7 @@
   </div>
 
   <div
-    *ngIf="windowWidth < 700"
+    *ngIf="windowWidth <= 700"
     class="banner-wrap"
     [ngClass]="{ 'banner-4-images': images.length == 4 }"
   >
