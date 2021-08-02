@@ -33,26 +33,23 @@
 
 /* Images for banner */
 .banner_img0 {
-  margin-left: 0;
+  margin-left: 0 !important;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 700px) {
+  .banner-wrap {
+    width: calc(100% + 257px);
+  }
+  .banner_img {
+    margin-left: -128px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .banner {
-    height: 300px;
-  }
-  .banner-wrap
-  {
-    width: calc(100% + 444px);
-  }
-  .banner-wrap.banner-4-images {
-    width: calc(100% + 891px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .banner {
     height: 250px;
   }
+
   .banner_img {
     margin-left: -44px;
   }
