@@ -1,16 +1,45 @@
 <!-- Banner -->
 <section class="banner">
-  <div class="banner-wrap" [ngClass]="{'banner-4-images': images.length == 4}">
+  <div
+    *ngIf="windowWidth > 700"
+    class="banner-wrap"
+    [ngClass]="{ 'banner-4-images': images.length == 4 }"
+  >
     <div
       *ngFor="let img of images; let i = index"
-      [style.background] = "i == activeImage ? 'url(' + img + '-opened.png)': 'url(' + img + '.png)'"
+      [style.background]="
+        i == activeImage
+          ? 'url(' + img + '-opened.png)'
+          : 'url(' + img + '.png)'
+      "
       class="banner_img{{ i }} banner_img"
       (click)="bannerClick(i, $event)"
-      [ngClass]="{ opened: i == activeImage, banner_closing_img: i == images.length - 1 }"
+      [ngClass]="{
+        opened: i == activeImage,
+        banner_closing_img: i == images.length - 1
+      }"
     ></div>
   </div>
 
+  <div
+    *ngIf="windowWidth < 700"
+    class="banner-wrap"
+    [ngClass]="{ 'banner-4-images': images.length == 4 }"
+  >
+    <div
+      *ngFor="let img of images; let i = index"
+      [style.background]="
+        i == activeImage
+          ? 'url(' + img + '-opened.png)'
+          : 'url(' + img + '.png)'
+      "
+      class="banner_img{{ i }} banner_img"
+      [ngClass]="{
+        banner_closing_img: i == images.length - 1
+      }"
+    ></div>
+  </div>
 </section>
 
-<div *ngIf="windowWidth < 700 ">mobile</div>
-<div *ngIf="windowWidth > 700 ">desk</div>
+<div *ngIf="windowWidth < 700">mobile</div>
+<div *ngIf="windowWidth > 700">desk</div>
