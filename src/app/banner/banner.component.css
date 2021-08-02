@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 .banner-wrap {
-  width: calc(100% + 70px);
+  width: calc(100% + 162px);
   height: 100%;
 }
 .banner_img {
@@ -40,6 +40,10 @@
   .banner {
     height: 300px;
   }
+  .banner-wrap
+  {
+    width: calc(100% + 444px);
+  }
   .banner-wrap.banner-4-images {
     width: calc(100% + 891px);
   }
@@ -53,7 +57,7 @@
     margin-left: -44px;
   }
   .banner-wrap {
-    width: calc(100% + 219px);
+    width: calc(100% + 360px);
   }
   .banner-wrap.banner-4-images {
     width: calc(100% + 865px);

@@ -36,10 +36,6 @@ export class AppComponent {
     {
       normal: 'assets/images/img3.png',
       opened: 'assets/images/img3-opened.png',
-    },
-    {
-      normal: 'assets/images/img3.png',
-      opened: 'assets/images/img3-opened.png',
-    },
+    }
   ];
 }
