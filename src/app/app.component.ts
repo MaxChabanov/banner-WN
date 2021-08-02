@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   bannerImages = [
     {
-      normal: 'assets/images/img1.jpg',
-      opened: 'assets/images/img1-opened-aa.png',
+      normal: 'assets/images/img1.png',
+      opened: 'assets/images/img1-opened.png',
     },
     {
       normal: 'assets/images/img2.png',
@@ -26,16 +26,12 @@ export class AppComponent {
   ];
   bannerImages3 = [
     {
-      normal: 'assets/images/img1.jpg',
-      opened: 'assets/images/img1-opened-aa.png',
+      normal: 'assets/images/img1.png',
+      opened: 'assets/images/img1-opened.png',
     },
     {
       normal: 'assets/images/img2.png',
       opened: 'assets/images/img2-opened.png',
-    },
-    {
-      normal: 'assets/images/img3.png',
-      opened: 'assets/images/img3-opened.png',
     },
     {
       normal: 'assets/images/img3.png',
