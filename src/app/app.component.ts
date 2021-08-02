@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   bannerImages = [
-    'assets/images/img1-test.jpg',
-    'assets/images/img2-test.jpg',
-    'assets/images/img3-test.jpg',
-    'assets/images/img3.jpg',
+    'assets/images/img1',
+    'assets/images/img2',
+    'assets/images/img3',
+    'assets/images/img3',
   ];
   bannerImages3 = [
-    'assets/images/img1-test.jpg',
-    'assets/images/img2-test.jpg',
-    'assets/images/img3-test.jpg',
+    'assets/images/img1',
+    'assets/images/img2',
+    'assets/images/img3',
   ];
 }
