@@ -7,14 +7,39 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   bannerImages = [
-    'assets/images/img1',
-    'assets/images/img2',
-    'assets/images/img3',
-    'assets/images/img3',
+    {
+      normal: 'assets/images/img1.jpg',
+      opened: 'assets/images/img1-opened-aa.png',
+    },
+    {
+      normal: 'assets/images/img2.png',
+      opened: 'assets/images/img2-opened.png',
+    },
+    {
+      normal: 'assets/images/img3.png',
+      opened: 'assets/images/img3-opened.png',
+    },
+    {
+      normal: 'assets/images/img3.png',
+      opened: 'assets/images/img3-opened.png',
+    },
   ];
   bannerImages3 = [
-    'assets/images/img1',
-    'assets/images/img2',
-    'assets/images/img3',
+    {
+      normal: 'assets/images/img1.jpg',
+      opened: 'assets/images/img1-opened-aa.png',
+    },
+    {
+      normal: 'assets/images/img2.png',
+      opened: 'assets/images/img2-opened.png',
+    },
+    {
+      normal: 'assets/images/img3.png',
+      opened: 'assets/images/img3-opened.png',
+    },
+    {
+      normal: 'assets/images/img3.png',
+      opened: 'assets/images/img3-opened.png',
+    },
   ];
 }
