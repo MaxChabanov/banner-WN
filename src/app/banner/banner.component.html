@@ -13,7 +13,7 @@
           : 'url(' + img + '.png)'
       "
       class="banner_img{{ i }} banner_img"
-      (click)="bannerClick(i, $event)"
+      (click)="bannerClick($event)"
       [ngClass]="{
         opened: i == activeImage,
         banner_closing_img: i == images.length - 1
@@ -37,6 +37,7 @@
       [ngClass]="{
         banner_closing_img: i == images.length - 1
       }"
+      (click)="bannerClick($event)"
     ></div>
   </div>
 </section>
