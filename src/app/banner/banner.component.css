@@ -33,28 +33,7 @@
 
 /* Images for banner */
 .banner_img0 {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   margin-left: 0;
-}
-.banner_img1 {
-  clip-path: polygon(15% 0, 100% 0, 91% 100%, 0 100%);
-}
-.banner_img2 {
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-}
-
-.banner_img0.opened {
-  clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
-}
-.banner_img1.opened,
-.banner_img2.opened {
-  clip-path: polygon(8% 0, 100% 0, 91% 100%, 0 100%);
-}
-.banner_closing_img {
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
-}
-.banner_closing_img.opened {
-  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 @media screen and (max-width: 600px) {
