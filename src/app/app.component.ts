@@ -13,7 +13,7 @@ export class AppComponent {
     'assets/images/img3',
   ];
   bannerImages3 = [
-    'assets/images/img1',
+    {normal: 'assets/images/img1', opened: 'assets/images/img1-mob.jpb', mobile: 'assets/images/img1'},
     'assets/images/img2',
     'assets/images/img3',
   ];
