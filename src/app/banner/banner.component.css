@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 .banner-wrap {
-  width: calc(100% + 162px + 30px);
+  width: calc(100% + 163px + 30px);
   height: 100%;
 }
 .banner_img {
@@ -14,6 +14,8 @@
   background-size: 100% 100% !important;
   background-repeat: no-repeat;
   transition: 0.3s;
+  cursor: pointer;
+  transition-timing-function: step-end;
 }
 
 .banner_img0 {
@@ -29,7 +31,7 @@
 }
 
 .banner_img {
-  margin-left: -168px;
+  margin-left: -170px;
 }
 
 .banner_img0 {
