@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 .banner-wrap {
-  width: calc(100% + 162px + 30px;);
+  width: calc(100% + 162px + 30px);
   height: 100%;
 }
 .banner_img {
@@ -28,12 +28,11 @@
 }
 
 .banner_img {
-  margin-left: -80px;
-
+  margin-left: -162px;
 }
 
 .banner-wrap {
-  width: calc(100% + 160px + 30px);
+  width: calc(100% + 324px + 30px);
 }
 
 .banner-4-images .banner_img {
@@ -74,11 +73,11 @@
     height: 230px;
   }
   .banner-wrap {
-    width: calc(100% + 140px);
+    width: calc(100% + 160px);
   }
   .banner_img {
     width: 33%;
-    margin-left: -70px;
+    margin-left: -80px;
   }
   .banner-4-images .banner_img {
     width: 25%;
@@ -96,10 +95,10 @@
   }
 
   .banner_img {
-    margin-left: -50px;
+    margin-left: -54px;
   }
   .banner-wrap {
-    width: calc(100% + 100px + 20px);
+    width: calc(100% + 108px + 20px);
   }
 
   .banner-4-images .banner_img {
