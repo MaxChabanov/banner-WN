@@ -18,6 +18,10 @@
   transition-timing-function: step-end;
 }
 
+.banner_img:hover{
+  filter: grayscale(0.3);
+}
+
 .banner_img0 {
   margin-left: 0 !important;
 }
